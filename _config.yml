@@ -10,6 +10,6 @@ include:
 # 2. Prevent Jekyll from rendering Docsify's markdown files into HTML
 defaults:
   - scope:
-      path: "docs" # Replace with your Docsify subdirectory name
+      path: "DocsifyDemo" # Replace with your Docsify subdirectory name
     values:
       layout: null
