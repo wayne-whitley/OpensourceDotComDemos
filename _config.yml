@@ -1,1 +1,15 @@
 theme: jekyll-theme-hacker
+
+# 1. Force Jekyll to copy Docsify's underscore files (like _sidebar.md)
+include:
+  - _sidebar.md
+  - _navbar.md
+  - _coverpage.md
+  - _404.md
+
+# 2. Prevent Jekyll from rendering Docsify's markdown files into HTML
+defaults:
+  - scope:
+      path: "docs" # Replace with your Docsify subdirectory name
+    values:
+      layout: null
